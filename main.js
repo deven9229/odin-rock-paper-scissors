@@ -56,7 +56,7 @@ function finalScore() {
 
 function game() {
   for (let i = 0; i < 5; i++) {
-    let playerSelection = prompt('What do you choose?', ''.toLowerCase());
+    //let playerSelection = prompt('What do you choose?', ''.toLowerCase());
     const computerSelection = computerPlay();
     console.log(playRound(playerSelection, computerSelection));
   }
